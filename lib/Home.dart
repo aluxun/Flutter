@@ -22,9 +22,9 @@ class _HomeState extends State<HomeForm>{
         ),
         body:Center(child:Container(
 
-               child: TextField(maxLines: 5),
-        )
-            ),
+               child: Center(child: Image.asset("image/11.jpg"))),
+        ),
+
         backgroundColor: Colors.red,
         drawer:Drawer(child:ListView(children: [ListTile(title: Text('用户设置')),ListTile(title: Text('用户设置')),ListTile(title: Text('用户设置'))],) )
 
